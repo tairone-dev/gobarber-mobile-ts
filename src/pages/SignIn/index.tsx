@@ -100,6 +100,7 @@ const SignIn = () => {
               onSubmit={handleSignIn}
               style={{ width: '100%' }}>
               <Input
+                testID="email"
                 autoCorrect={false}
                 autoCapitalize="none"
                 keyboardType="email-address"
@@ -111,6 +112,7 @@ const SignIn = () => {
               />
 
               <Input
+                testID="password"
                 ref={passwordInputRef}
                 name="password"
                 icon="lock"
